@@ -129,10 +129,10 @@ learning: Advanced AI agent architectures, system design
 
 ---
 
-### Achievements
+### Streak
 
 <div align="center">
-  <img src="https://github-trophies.vercel.app/?username=Vishwaksen0124&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10"/>
+  <img src="https://streak-stats.demolab.com?user=Vishwaksen0124&theme=transparent&hide_border=false&border=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681"/>
 </div>
 
 ---
