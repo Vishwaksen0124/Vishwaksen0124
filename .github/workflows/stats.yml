@@ -28,9 +28,10 @@ jobs:
           base: header, activity, community, repositories
           config_timezone: Asia/Kolkata
           
-          # Include all commits (private + public)
+          # Include all commits (private + public + orgs)
           base_indepth: yes
           repositories_forks: yes
+          repositories_affiliations: owner, collaborator, organization_member
           
           # Styling
           config_display: large
