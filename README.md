@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d1117,50:161b22,100:0d1117&text=Pujala%20Vishwaksen&fontColor=58a6ff&fontSize=50&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20AI%20Engineer%20%7C%20Cloud%20Architect&descSize=16&descAlignY=52&descColor=8b949e&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d1117,50:1a1f2b,100:0d1117&text=Pujala%20Vishwaksen&fontColor=58a6ff&fontSize=50&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20AI%20Engineer%20%7C%20Cloud%20Architect&descSize=16&descAlignY=52&descColor=8b949e&animation=fadeIn"/>
 
 <!-- Typing Animation -->
 <a href="https://github.com/Vishwaksen0124">
@@ -14,10 +14,10 @@
 
 <!-- Quick Stats Badges -->
 <a href="https://github.com/Vishwaksen0124?tab=followers">
-  <img src="https://img.shields.io/github/followers/Vishwaksen0124?label=Followers&style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=58a6ff"/>
+  <img src="https://img.shields.io/github/followers/Vishwaksen0124?label=Followers&style=flat-square&logo=github&logoColor=white&labelColor=21262d&color=58a6ff"/>
 </a>
-<img src="https://img.shields.io/badge/Contributions-621+-58a6ff?style=flat-square&labelColor=0d1117"/>
-<img src="https://komarev.com/ghpvc/?username=Vishwaksen0124&style=flat-square&color=58a6ff&labelColor=0d1117&label=Views"/>
+<img src="https://img.shields.io/badge/Contributions-621+-58a6ff?style=flat-square&labelColor=21262d"/>
+<img src="https://komarev.com/ghpvc/?username=Vishwaksen0124&style=flat-square&color=58a6ff&labelColor=21262d&label=Views"/>
 
 </div>
 
@@ -87,14 +87,14 @@ learning: Advanced AI agent architectures, system design
 
 <br/><br/>
 
-<img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishwaksen0124&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"/>
+<img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishwaksen0124&layout=compact&theme=github_dark&hide_border=false&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=30363d&langs_count=8"/>
 
 </div>
 
 <br/>
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vishwaksen0124&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution%20Graph"/>
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vishwaksen0124&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=false&custom_title=Contribution%20Graph&border_color=30363d"/>
 </div>
 
 ---
@@ -112,17 +112,17 @@ learning: Advanced AI agent architectures, system design
 <div align="center">
 
 <a href="https://github.com/Vishwaksen0124/Planity">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Planity&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Planity&theme=github_dark&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d"/>
 </a>
 <a href="https://github.com/Vishwaksen0124/Customer-Segmentation">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Customer-Segmentation&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Customer-Segmentation&theme=github_dark&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d"/>
 </a>
 
 <a href="https://github.com/Vishwaksen0124/Face-Detection">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Face-Detection&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Face-Detection&theme=github_dark&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d"/>
 </a>
 <a href="https://github.com/Vishwaksen0124/Resume-Job-JD-analyzer">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Resume-Job-JD-analyzer&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Resume-Job-JD-analyzer&theme=github_dark&hide_border=false&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d"/>
 </a>
 
 </div>
@@ -132,7 +132,7 @@ learning: Advanced AI agent architectures, system design
 ### Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Vishwaksen0124&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10"/>
+  <img src="https://github-trophies.vercel.app/?username=Vishwaksen0124&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10"/>
 </div>
 
 ---
@@ -145,4 +145,4 @@ learning: Advanced AI agent architectures, system design
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=80&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f2b,100:0d1117&height=80&section=footer"/>
