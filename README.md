@@ -96,21 +96,18 @@
 
 <div align="center">
 
-<!-- GitHub Stats - Using github-readme-stats with PAT for better rate limits -->
-<a href="https://github.com/Vishwaksen0124">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Vishwaksen0124&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=false&count_private=false&cache_seconds=86400"/>
-</a>
-<a href="https://github.com/Vishwaksen0124">
-  <!-- Streak Stats - Official demolab -->
-  <img height="180" src="https://streak-stats.demolab.com?user=Vishwaksen0124&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=ff6b6b&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e"/>
-</a>
+<!-- Stats generated via GitHub Actions - includes private repos -->
+<img src="./stats.svg" alt="GitHub Stats" />
+
+<br/>
+
+<!-- Streak Stats -->
+<img src="https://streak-stats.demolab.com?user=Vishwaksen0124&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=ff6b6b&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e"/>
 
 <br/><br/>
 
-<!-- Top Languages -->
-<a href="https://github.com/Vishwaksen0124">
-  <img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishwaksen0124&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10&hide=html,css"/>
-</a>
+<!-- Languages generated via GitHub Actions -->
+<img src="./languages.svg" alt="Top Languages" />
 
 </div>
 
