@@ -3,121 +3,118 @@
 <div align="center">
 
 <!-- Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0d1117,100:161b22&text=Vishwaksen&fontColor=58a6ff&fontSize=60&fontAlignY=35&desc=Full-Stack%20Developer%20%E2%80%A2%20AI/ML%20Enthusiast%20%E2%80%A2%20IIIT%20Sri%20City&descSize=15&descAlignY=55&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d1117,50:161b22,100:0d1117&text=Pujala%20Vishwaksen&fontColor=58a6ff&fontSize=50&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20AI%20Engineer%20%7C%20Cloud%20Architect&descSize=16&descAlignY=52&descColor=8b949e&animation=fadeIn"/>
 
 <!-- Typing Animation -->
 <a href="https://github.com/Vishwaksen0124">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&lines=%F0%9F%91%8B+Hey+there!+I'm+Pujala+Vishwaksen;%F0%9F%92%BB+Full-Stack+Developer+from+India;%F0%9F%8E%93+B.Tech+CSE+%40+IIIT+Sri+City;%F0%9F%9A%80+Building+AI-Powered+Applications" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=500&lines=Building+Production-Grade+AI+Systems;Full-Stack+%7C+React+%2B+Next.js+%2B+FastAPI;B.Tech+CSE+%40+IIIT+Sri+City+%2722-26" alt="Typing SVG" />
 </a>
 
-<br/><br/>
+<br/>
 
-<!-- Badges -->
+<!-- Quick Stats Badges -->
 <a href="https://github.com/Vishwaksen0124?tab=followers">
-  <img src="https://img.shields.io/github/followers/Vishwaksen0124?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=58a6ff"/>
+  <img src="https://img.shields.io/github/followers/Vishwaksen0124?label=Followers&style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=58a6ff"/>
 </a>
-<img src="https://komarev.com/ghpvc/?username=Vishwaksen0124&style=for-the-badge&color=58a6ff&labelColor=0d1117&label=Profile+Views"/>
+<img src="https://img.shields.io/badge/Contributions-621+-58a6ff?style=flat-square&labelColor=0d1117"/>
+<img src="https://komarev.com/ghpvc/?username=Vishwaksen0124&style=flat-square&color=58a6ff&labelColor=0d1117&label=Views"/>
 
 </div>
 
-<br/>
+---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+### About
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="28"/> About Me
+```yaml
+name: Pujala Vishwaksen
+location: IIIT Sri City, India
+education: B.Tech CSE (2022-2026)
+current_focus:
+  - Production-grade AI applications with LangGraph
+  - Full-stack development (React, Next.js, FastAPI)
+  - Cloud infrastructure (AWS, Terraform, Docker)
+learning: Advanced AI agent architectures, system design
+```
 
-<img align="right" width="280" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+---
 
-- **Name:** Pujala Vishwaksen
-- **Location:** IIIT Sri City, India  
-- **Education:** B.Tech CSE (2022-2026)
-- **Role:** Full-Stack Developer
+### Tech Stack
 
-**Currently Working On:**
-- Production-Grade AI Applications with LangGraph
-- Full-Stack Web Development (React, Next.js, FastAPI)
-- Cloud Infrastructure & DevOps (AWS, Terraform)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Learning:** Advanced AI Agent Patterns, System Design
+**Languages & Frameworks**
 
-**Fun Fact:** I debug code in my dreams
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000?style=flat-square&logo=express&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 
-<br clear="right"/>
+</td>
+<td width="50%" valign="top">
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+**Cloud, Data & AI**
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="28"/> Tech Stack
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-<div align="center">
+</td>
+</tr>
+</table>
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+---
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-### Backend
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-
-### Database & Cloud
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-
-### AI/ML
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28"/> GitHub Analytics
+### GitHub Analytics
 
 <div align="center">
 
-<!-- Custom Stats - Generated via GitHub Actions with real data -->
 <img width="495" src="https://raw.githubusercontent.com/Vishwaksen0124/Vishwaksen0124/main/stats.svg" alt="GitHub Stats"/>
 
 <br/><br/>
 
 <!-- Top Languages -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishwaksen0124&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"/>
+<img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishwaksen0124&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"/>
 
 </div>
 
-<br/>
+---
 
-<!-- Activity Graph -->
+### 3D Contribution Graph
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-south-season-animate.svg"/>
+    <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+  </picture>
+</div>
+
+---
+
+### Activity
+
 <div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vishwaksen0124&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution%20Graph"/>
 </div>
 
-<br/>
+---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="28"/> Featured Projects
+### Featured Projects
 
 <div align="center">
 
@@ -137,53 +134,23 @@
 
 </div>
 
-<br/>
+---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="28"/> GitHub Trophies
+### Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Vishwaksen0124&theme=algolia&no-frame=true&no-bg=true&column=7"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Vishwaksen0124&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10"/>
 </div>
 
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="28"/> Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vishwaksen0124/Vishwaksen0124/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vishwaksen0124/Vishwaksen0124/output/github-snake.svg"/>
-    <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/Vishwaksen0124/Vishwaksen0124/output/github-snake-dark.svg"/>
-  </picture>
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="28"/> Connect With Me
+---
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vishwaksen0124)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vishwaksen)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishwaksenpujala@gmail.com)
-
-<br/>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The%20best%20way%20to%20predict%20the%20future%20is%20to%20create%20it.&author=Peter%20Drucker"/>
+[![GitHub](https://img.shields.io/badge/-Vishwaksen0124-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Vishwaksen0124)
+[![LinkedIn](https://img.shields.io/badge/-vishwaksen-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vishwaksen)
+[![Gmail](https://img.shields.io/badge/-vishwaksenpujala-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vishwaksenpujala@gmail.com)
 
 </div>
-
-<br/>
 
 <!-- Footer -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=100&section=footer"/>
-
-<div align="center">
-  <b>Thanks for visiting! If you like my work, give my repos a ⭐</b>
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=80&section=footer"/>
