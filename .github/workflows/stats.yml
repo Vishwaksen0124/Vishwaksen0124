@@ -38,33 +38,33 @@ jobs:
           echo "Total: $TOTAL, Commits: $COMMITS, Private: $PRIVATE, PRs: $PRS"
           
           python3 -c "
-          svg = '''<svg width=\"495\" height=\"195\" viewBox=\"0 0 495 195\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
-            <rect x=\"0.5\" y=\"0.5\" width=\"494\" height=\"194\" rx=\"4.5\" fill=\"#0d1117\" stroke=\"#30363d\"/>
+          svg = '''<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"495\" height=\"195\" viewBox=\"0 0 495 195\">
+            <rect x=\"0.5\" y=\"0.5\" width=\"494\" height=\"194\" rx=\"4.5\" fill=\"#161b22\" stroke=\"#58a6ff\" stroke-opacity=\"0.5\"/>
             <text x=\"25\" y=\"35\" fill=\"#58a6ff\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-weight=\"600\" font-size=\"18\">Vishwaksen GitHub Stats</text>
-            <g transform=\"translate(25, 55)\">
-              <circle cx=\"8\" cy=\"6\" r=\"6\" fill=\"#58a6ff\"/>
-              <text x=\"25\" y=\"12\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\">Total Contributions (Last Year)</text>
-              <text x=\"380\" y=\"12\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\" font-weight=\"bold\">{total}</text>
+            <g transform=\"translate(25, 60)\">
+              <circle cx=\"6\" cy=\"6\" r=\"5\" fill=\"#58a6ff\"/>
+              <text x=\"20\" y=\"11\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\">Total Contributions (Last Year)</text>
+              <text x=\"420\" y=\"11\" fill=\"#58a6ff\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\" font-weight=\"bold\">{total}</text>
             </g>
-            <g transform=\"translate(25, 85)\">
-              <circle cx=\"8\" cy=\"6\" r=\"6\" fill=\"#58a6ff\"/>
-              <text x=\"25\" y=\"12\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\">Commits</text>
-              <text x=\"380\" y=\"12\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\" font-weight=\"bold\">{commits}</text>
+            <g transform=\"translate(25, 88)\">
+              <circle cx=\"6\" cy=\"6\" r=\"5\" fill=\"#58a6ff\"/>
+              <text x=\"20\" y=\"11\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\">Commits (Public)</text>
+              <text x=\"420\" y=\"11\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\" font-weight=\"bold\">{commits}</text>
             </g>
-            <g transform=\"translate(25, 115)\">
-              <circle cx=\"8\" cy=\"6\" r=\"6\" fill=\"#58a6ff\"/>
-              <text x=\"25\" y=\"12\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\">Pull Requests</text>
-              <text x=\"380\" y=\"12\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\" font-weight=\"bold\">{prs}</text>
+            <g transform=\"translate(25, 116)\">
+              <circle cx=\"6\" cy=\"6\" r=\"5\" fill=\"#58a6ff\"/>
+              <text x=\"20\" y=\"11\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\">Pull Requests</text>
+              <text x=\"420\" y=\"11\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\" font-weight=\"bold\">{prs}</text>
             </g>
-            <g transform=\"translate(25, 145)\">
-              <circle cx=\"8\" cy=\"6\" r=\"6\" fill=\"#58a6ff\"/>
-              <text x=\"25\" y=\"12\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\">Repositories</text>
-              <text x=\"380\" y=\"12\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\" font-weight=\"bold\">{repos}</text>
+            <g transform=\"translate(25, 144)\">
+              <circle cx=\"6\" cy=\"6\" r=\"5\" fill=\"#58a6ff\"/>
+              <text x=\"20\" y=\"11\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\">Repositories</text>
+              <text x=\"420\" y=\"11\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\" font-weight=\"bold\">{repos}</text>
             </g>
-            <g transform=\"translate(25, 175)\">
-              <circle cx=\"8\" cy=\"6\" r=\"6\" fill=\"#58a6ff\"/>
-              <text x=\"25\" y=\"12\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\">Followers</text>
-              <text x=\"380\" y=\"12\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\" font-weight=\"bold\">{followers}</text>
+            <g transform=\"translate(25, 172)\">
+              <circle cx=\"6\" cy=\"6\" r=\"5\" fill=\"#58a6ff\"/>
+              <text x=\"20\" y=\"11\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\">Followers</text>
+              <text x=\"420\" y=\"11\" fill=\"#c9d1d9\" font-family=\"Segoe UI, Ubuntu, sans-serif\" font-size=\"14\" font-weight=\"bold\">{followers}</text>
             </g>
           </svg>'''.format(
               total='$TOTAL', commits='$COMMITS', prs='$PRS',

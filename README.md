@@ -97,7 +97,7 @@
 <div align="center">
 
 <!-- Custom Stats - Generated via GitHub Actions with real data -->
-<img src="https://raw.githubusercontent.com/Vishwaksen0124/Vishwaksen0124/main/stats.svg" alt="GitHub Stats"/>
+<img width="495" src="https://raw.githubusercontent.com/Vishwaksen0124/Vishwaksen0124/main/stats.svg" alt="GitHub Stats"/>
 
 <br/><br/>
 
