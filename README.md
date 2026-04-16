@@ -87,29 +87,22 @@ learning: Advanced AI agent architectures, system design
 
 <br/><br/>
 
-<!-- Top Languages -->
 <img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishwaksen0124&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"/>
 
 </div>
 
----
-
-### 3D Contribution Graph
+<br/>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-south-season-animate.svg"/>
-    <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
-  </picture>
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vishwaksen0124&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution%20Graph"/>
 </div>
 
 ---
 
-### Activity
+### 3D Contribution Map
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vishwaksen0124&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution%20Graph"/>
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" width="100%"/>
 </div>
 
 ---
@@ -152,5 +145,4 @@ learning: Advanced AI agent architectures, system design
 
 </div>
 
-<!-- Footer -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=80&section=footer"/>
