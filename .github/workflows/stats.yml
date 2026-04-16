@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths-ignore:
       - 'stats.svg'
+      - 'streak.svg'
       - 'profile-3d-contrib/**'
   schedule:
     - cron: "0 0 * * *"
@@ -41,11 +42,26 @@ jobs:
           echo "Stats: $JSON"
           python3 generate_stats.py "$JSON"
       
+      - name: Fetch Contribution Calendar and Generate Streak SVG
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          FROM_DATE=$(date -d "365 days ago" -u +"%Y-%m-%dT00:00:00Z")
+          TO_DATE=$(date -u +"%Y-%m-%dT23:59:59Z")
+          
+          RESPONSE=$(curl -s -H "Authorization: bearer $GH_TOKEN" -X POST \
+            -d "{\"query\":\"query { user(login: \\\"Vishwaksen0124\\\") { contributionsCollection(from: \\\"$FROM_DATE\\\", to: \\\"$TO_DATE\\\") { contributionCalendar { totalContributions weeks { contributionDays { contributionCount date } } } } }}\"}" \
+            https://api.github.com/graphql)
+          
+          CALENDAR=$(echo $RESPONSE | jq '{total: .data.user.contributionsCollection.contributionCalendar.totalContributions, weeks: .data.user.contributionsCollection.contributionCalendar.weeks}')
+          echo "Calendar total: $(echo $CALENDAR | jq '.total')"
+          python3 generate_streak.py "$CALENDAR"
+      
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.svg
+          git add stats.svg streak.svg
           git diff --staged --quiet || git commit -m "Update stats"
           git pull --rebase origin main
           git push

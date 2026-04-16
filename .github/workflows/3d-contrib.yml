@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths-ignore:
       - 'stats.svg'
+      - 'streak.svg'
       - 'profile-3d-contrib/**'
   schedule:
     - cron: "0 0 * * *"

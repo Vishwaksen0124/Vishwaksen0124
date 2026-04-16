@@ -1,0 +1,108 @@
+import sys
+import json
+from datetime import datetime
+
+data = json.loads(sys.argv[1])
+
+weeks = data.get("weeks", [])
+total = data.get("total", 0)
+
+# Flatten all contribution days in chronological order
+days = []
+for week in weeks:
+    for day in week.get("contributionDays", []):
+        days.append({"date": day["date"], "count": day["contributionCount"]})
+
+# Calculate current streak (count back from today/yesterday)
+today = datetime.utcnow().strftime("%Y-%m-%d")
+current_streak = 0
+for day in reversed(days):
+    if day["count"] > 0:
+        current_streak += 1
+    elif day["date"] == today:
+        # Today might not have contributions yet, skip it
+        continue
+    else:
+        break
+
+# Calculate longest streak
+longest_streak = 0
+streak = 0
+for day in days:
+    if day["count"] > 0:
+        streak += 1
+        longest_streak = max(longest_streak, streak)
+    else:
+        streak = 0
+
+# Format dates for display
+first_date = days[0]["date"] if days else ""
+last_date = days[-1]["date"] if days else ""
+
+
+def fmt_date(d):
+    try:
+        dt = datetime.strptime(d, "%Y-%m-%d")
+        return dt.strftime("%b %d, %Y")
+    except:
+        return d
+
+
+date_range = f"{fmt_date(first_date)} - {fmt_date(last_date)}"
+
+# Fire icon for streak
+fire_icon = '<path d="M12 23c-3.2 0-8-2.5-8-8.2 0-4 2.5-6.2 5-8.8 1-1 .7-2.7-.4-2.4C7.3 4 9 1.5 12.1.1c.5-.2 1 .2.8.7C12.2 3 14 4 15.5 3.5c2.1-.8 2.3-2.5 2.3-2.5s2.2 2 2.2 6c0 2.5-1 4-2 5.2-.7.8-.3 2 .7 2.2 0 0-1.5 2.7-4 4.2-1.5.8-2.7 1.4-2.7 4.4z" fill="#58a6ff"/>'
+
+svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="495" height="195" rx="6" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="6" fill="none" stroke="#30363d"/>
+
+  <!-- Title -->
+  <text x="247.5" y="30" text-anchor="middle" fill="#58a6ff" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="600" font-size="16">Contribution Streak</text>
+
+  <!-- Three columns -->
+  <!-- Total Contributions -->
+  <g transform="translate(82.5, 55)">
+    <text x="0" y="40" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="28">{total}</text>
+    <text x="0" y="60" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="500" font-size="12">Total Contributions</text>
+    <text x="0" y="78" text-anchor="middle" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10">{date_range}</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="165" y1="55" x2="165" y2="150" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Current Streak -->
+  <g transform="translate(247.5, 55)">
+    <svg x="-10" y="0" width="20" height="20" viewBox="0 0 24 24">{fire_icon}</svg>
+    <text x="0" y="40" text-anchor="middle" fill="#58a6ff" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="28">{current_streak}</text>
+    <text x="0" y="60" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="500" font-size="12">Current Streak</text>
+    <text x="0" y="78" text-anchor="middle" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10">days</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="330" y1="55" x2="330" y2="150" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Longest Streak -->
+  <g transform="translate(412.5, 55)">
+    <text x="0" y="40" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="28">{longest_streak}</text>
+    <text x="0" y="60" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="500" font-size="12">Longest Streak</text>
+    <text x="0" y="78" text-anchor="middle" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10">days</text>
+  </g>
+
+  <!-- Bottom accent -->
+  <rect x="25" y="180" width="445" height="2" rx="1" fill="#58a6ff" opacity="0.3"/>
+</svg>"""
+
+with open("streak.svg", "w") as f:
+    f.write(svg)
+print(
+    f"Generated streak.svg: Total={total}, Current={current_streak}, Longest={longest_streak}"
+)

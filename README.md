@@ -132,7 +132,7 @@ learning: Advanced AI agent architectures, system design
 ### Streak
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Vishwaksen0124&theme=transparent&hide_border=false&border=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681"/>
+  <img width="495" src="https://raw.githubusercontent.com/Vishwaksen0124/Vishwaksen0124/main/streak.svg" alt="Streak Stats"/>
 </div>
 
 ---
