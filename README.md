@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d1117,50:1a1f2b,100:0d1117&text=Pujala%20Vishwaksen&fontColor=58a6ff&fontSize=50&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20AI%20Engineer%20%7C%20Cloud%20Architect&descSize=16&descAlignY=52&descColor=8b949e&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d1117,50:1f6feb,100:0d1117&text=Pujala%20Vishwaksen&fontColor=58a6ff&fontSize=50&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20AI%20Engineer%20%7C%20Cloud%20Architect&descSize=16&descAlignY=52&descColor=c9d1d9&animation=fadeIn"/>
 
 <!-- Typing Animation -->
 <a href="https://github.com/Vishwaksen0124">
@@ -145,4 +145,4 @@ learning: Advanced AI agent architectures, system design
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f2b,100:0d1117&height=80&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:0d1117&height=80&section=footer"/>
