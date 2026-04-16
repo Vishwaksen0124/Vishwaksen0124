@@ -1,6 +1,11 @@
 name: Generate GitHub Stats
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'stats.svg'
+      - 'profile-3d-contrib/**'
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
