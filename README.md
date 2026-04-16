@@ -96,7 +96,12 @@
 
 <div align="center">
 
-<!-- Streak Stats - this one works reliably -->
+<!-- Custom Stats - Generated via GitHub Actions with real data -->
+<img src="./stats.svg" alt="GitHub Stats"/>
+
+<br/><br/>
+
+<!-- Streak Stats -->
 <img src="https://streak-stats.demolab.com?user=Vishwaksen0124&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=ff6b6b&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e"/>
 
 <br/><br/>
