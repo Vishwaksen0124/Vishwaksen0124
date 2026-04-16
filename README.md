@@ -96,9 +96,9 @@
 
 <div align="center">
 
-<!-- GitHub Stats - Using official vercel app -->
+<!-- GitHub Stats - Using github-readme-stats with PAT for better rate limits -->
 <a href="https://github.com/Vishwaksen0124">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Vishwaksen0124&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Vishwaksen0124&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=false&count_private=false&cache_seconds=86400"/>
 </a>
 <a href="https://github.com/Vishwaksen0124">
   <!-- Streak Stats - Official demolab -->
