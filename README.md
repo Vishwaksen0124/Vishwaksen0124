@@ -1,22 +1,18 @@
-<!-- 
-╔═══════════════════════════════════════════════════════════════════════════════╗
-║                    GitHub Profile - Pujala Vishwaksen                         ║
-╚═══════════════════════════════════════════════════════════════════════════════╝
--->
-
-<!-- HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0d1117,100:161b22&text=Vishwaksen&fontColor=58a6ff&fontSize=60&fontAlignY=35&desc=Full-Stack%20Developer%20%E2%80%A2%20AI/ML%20Enthusiast%20%E2%80%A2%20IIIT%20Sri%20City&descSize=15&descAlignY=55&animation=fadeIn"/>
+<!-- Profile README for Vishwaksen0124 -->
 
 <div align="center">
 
-<!-- TYPING ANIMATION -->
+<!-- Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0d1117,100:161b22&text=Vishwaksen&fontColor=58a6ff&fontSize=60&fontAlignY=35&desc=Full-Stack%20Developer%20%E2%80%A2%20AI/ML%20Enthusiast%20%E2%80%A2%20IIIT%20Sri%20City&descSize=15&descAlignY=55&animation=fadeIn"/>
+
+<!-- Typing Animation -->
 <a href="https://github.com/Vishwaksen0124">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&lines=%F0%9F%91%8B+Hey+there!+I'm+Pujala+Vishwaksen;%F0%9F%92%BB+Full-Stack+Developer+from+India;%F0%9F%8E%93+B.Tech+CSE+%40+IIIT+Sri+City;%F0%9F%9A%80+Building+AI-Powered+Applications;%E2%9C%A8+Turning+Ideas+into+Reality" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&lines=%F0%9F%91%8B+Hey+there!+I'm+Pujala+Vishwaksen;%F0%9F%92%BB+Full-Stack+Developer+from+India;%F0%9F%8E%93+B.Tech+CSE+%40+IIIT+Sri+City;%F0%9F%9A%80+Building+AI-Powered+Applications" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<!-- BADGES -->
+<!-- Badges -->
 <a href="https://github.com/Vishwaksen0124?tab=followers">
   <img src="https://img.shields.io/github/followers/Vishwaksen0124?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=58a6ff"/>
 </a>
@@ -26,20 +22,14 @@
 
 <br/>
 
-<!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ==================== ABOUT ME ==================== -->
-
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="28"/>
-  About Me
-</h2>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="28"/> About Me
 
 <img align="right" width="280" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
 - **Name:** Pujala Vishwaksen
-- **Location:** IIIT Sri City, India
+- **Location:** IIIT Sri City, India  
 - **Education:** B.Tech CSE (2022-2026)
 - **Role:** Full-Stack Developer
 
@@ -50,19 +40,13 @@
 
 **Learning:** Advanced AI Agent Patterns, System Design
 
-**Fun Fact:** I debug code in my dreams 💭
+**Fun Fact:** I debug code in my dreams
 
 <br clear="right"/>
 
-<!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ==================== TECH STACK ==================== -->
-
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="28"/>
-  Tech Stack
-</h2>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="28"/> Tech Stack
 
 <div align="center">
 
@@ -82,7 +66,6 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 
 ### Database & Cloud
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -96,7 +79,6 @@
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -108,31 +90,26 @@
 
 <br/>
 
-<!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ==================== GITHUB STATS ==================== -->
-
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28"/>
-  GitHub Analytics
-</h2>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28"/> GitHub Analytics
 
 <div align="center">
 
-<!-- Row 1: Stats + Streak -->
+<!-- GitHub Stats - Using official vercel app -->
 <a href="https://github.com/Vishwaksen0124">
-  <img height="180" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Vishwaksen0124&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Vishwaksen0124&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
 </a>
 <a href="https://github.com/Vishwaksen0124">
+  <!-- Streak Stats - Official demolab -->
   <img height="180" src="https://streak-stats.demolab.com?user=Vishwaksen0124&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=ff6b6b&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e"/>
 </a>
 
 <br/><br/>
 
-<!-- Languages -->
+<!-- Top Languages -->
 <a href="https://github.com/Vishwaksen0124">
-  <img width="350" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Vishwaksen0124&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10&hide=html,css"/>
+  <img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishwaksen0124&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10&hide=html,css"/>
 </a>
 
 </div>
@@ -146,61 +123,43 @@
 
 <br/>
 
-<!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ==================== FEATURED PROJECTS ==================== -->
-
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="28"/>
-  Featured Projects
-</h2>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="28"/> Featured Projects
 
 <div align="center">
 
 <a href="https://github.com/Vishwaksen0124/Planity">
-  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Vishwaksen0124&repo=Planity&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Planity&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
 </a>
 <a href="https://github.com/Vishwaksen0124/Customer-Segmentation">
-  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Vishwaksen0124&repo=Customer-Segmentation&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Customer-Segmentation&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
 </a>
 
 <a href="https://github.com/Vishwaksen0124/Face-Detection">
-  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Vishwaksen0124&repo=Face-Detection&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Face-Detection&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
 </a>
 <a href="https://github.com/Vishwaksen0124/Resume-Job-JD-analyzer">
-  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Vishwaksen0124&repo=Resume-Job-JD-analyzer&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwaksen0124&repo=Resume-Job-JD-analyzer&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
 </a>
 
 </div>
 
 <br/>
 
-<!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ==================== TROPHIES ==================== -->
-
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="28"/>
-  GitHub Trophies
-</h2>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="28"/> GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Vishwaksen0124&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Vishwaksen0124&theme=algolia&no-frame=true&no-bg=true&column=7"/>
 </div>
 
 <br/>
 
-<!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ==================== SNAKE ==================== -->
-
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="28"/>
-  Contribution Snake
-</h2>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="28"/> Contribution Snake
 
 <div align="center">
   <picture>
@@ -212,15 +171,9 @@
 
 <br/>
 
-<!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ==================== CONNECT ==================== -->
-
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="28"/>
-  Let's Connect
-</h2>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="28"/> Connect With Me
 
 <div align="center">
 
@@ -236,9 +189,9 @@
 
 <br/>
 
-<!-- FOOTER -->
+<!-- Footer -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=100&section=footer"/>
 
 <div align="center">
-  <b>💙 Thanks for visiting! If you like my work, give my repos a ⭐</b>
+  <b>Thanks for visiting! If you like my work, give my repos a ⭐</b>
 </div>
