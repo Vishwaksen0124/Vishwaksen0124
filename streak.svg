@@ -18,7 +18,7 @@
   <g transform="translate(82.5, 55)">
     <text x="0" y="40" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="28">696</text>
     <text x="0" y="60" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="500" font-size="12">Total Contributions</text>
-    <text x="0" y="78" text-anchor="middle" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10">Apr 22, 2025 - Apr 22, 2026</text>
+    <text x="0" y="78" text-anchor="middle" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10">Apr 23, 2025 - Apr 23, 2026</text>
   </g>
 
   <!-- Separator -->
@@ -27,7 +27,7 @@
   <!-- Current Streak -->
   <g transform="translate(247.5, 55)">
     <svg x="-10" y="0" width="20" height="20" viewBox="0 0 24 24"><path d="M12 23c-3.2 0-8-2.5-8-8.2 0-4 2.5-6.2 5-8.8 1-1 .7-2.7-.4-2.4C7.3 4 9 1.5 12.1.1c.5-.2 1 .2.8.7C12.2 3 14 4 15.5 3.5c2.1-.8 2.3-2.5 2.3-2.5s2.2 2 2.2 6c0 2.5-1 4-2 5.2-.7.8-.3 2 .7 2.2 0 0-1.5 2.7-4 4.2-1.5.8-2.7 1.4-2.7 4.4z" fill="#58a6ff"/></svg>
-    <text x="0" y="40" text-anchor="middle" fill="#58a6ff" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="28">2</text>
+    <text x="0" y="40" text-anchor="middle" fill="#58a6ff" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="28">0</text>
     <text x="0" y="60" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="500" font-size="12">Current Streak</text>
     <text x="0" y="78" text-anchor="middle" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10">days</text>
   </g>
