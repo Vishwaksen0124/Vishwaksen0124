@@ -45,6 +45,78 @@ Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently buildi
 
 ---
 
+## 🏗️ Production Architecture I Work On
+
+> The system I build and operate end-to-end at Kookar AI — from user channels through agentic AI, distributed processing, and the BI layer founders read every morning.
+
+```mermaid
+flowchart LR
+    subgraph CH["📲 Channels"]
+        WA["WhatsApp<br/>Users"]
+        DASH["React + Socket.IO<br/>Live Dashboard"]
+    end
+
+    subgraph AIL["🤖 Agentic AI Layer"]
+        REC["Recruiting Agent<br/>3 LLM agents · HITL"]
+        LG["LangGraph Orchestration<br/>10+ agents · Pydantic"]
+        EVAL["LangSmith Evaluators<br/>OpenAI · Anthropic · Mistral"]
+    end
+
+    subgraph API["⚙️ Backend / APIs"]
+        FAST["FastAPI"]
+        NODE["Node.js"]
+    end
+
+    subgraph ASY["🔄 Distributed Async"]
+        CEL["Celery + Redis"]
+        EB["AWS EventBridge"]
+        SQS["SQS + DLQs<br/>20+ task types"]
+    end
+
+    subgraph ORD["🛒 Order Pipeline · 6 Partners"]
+        CART["Cart<br/>Orchestrator"]
+        TRACK["Tracking<br/>Ledger"]
+        PAY["Wallet Debit<br/>+ Refunds"]
+    end
+
+    subgraph DAT["📊 Data & BI"]
+        DB[("PostgreSQL<br/>+ MongoDB")]
+        NS["Northstar Pipeline<br/>GMV · WAU/MAU · churn"]
+        GRAF["4 Grafana<br/>Dashboards"]
+    end
+
+    FOUND["👔 Founders"]
+
+    WA --> REC --> LG --> EVAL
+    DASH --> API
+    LG --> API
+    API --> CEL
+    CEL --> EB --> SQS
+    SQS --> CART --> TRACK --> PAY
+    API --> DB
+    PAY --> DB
+    DB --> NS --> GRAF
+    NS -->|HTML + PDF email| FOUND
+
+    classDef ch fill:#0d3a6b,stroke:#58a6ff,color:#e6edf3
+    classDef ai fill:#3d2c63,stroke:#a371f7,color:#e6edf3
+    classDef api fill:#0a4f4a,stroke:#39d3c3,color:#e6edf3
+    classDef asy fill:#5c2323,stroke:#f87171,color:#e6edf3
+    classDef ord fill:#5a4410,stroke:#e3b341,color:#e6edf3
+    classDef dat fill:#143d2b,stroke:#3fb950,color:#e6edf3
+    classDef ppl fill:#1f6feb,stroke:#58a6ff,color:#fff
+
+    class WA,DASH ch
+    class REC,LG,EVAL ai
+    class FAST,NODE api
+    class CEL,EB,SQS asy
+    class CART,TRACK,PAY ord
+    class DB,NS,GRAF dat
+    class FOUND ppl
+```
+
+---
+
 ## 🛠️ Tech Stack
 
 **Languages**
@@ -62,34 +134,52 @@ Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently buildi
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![REST](https://img.shields.io/badge/REST_APIs-005571?style=flat-square&logo=fastapi&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
 
 **AI / LLM**
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
 ![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-D4A27F?style=flat-square&logo=anthropic&logoColor=white)
+![Mistral](https://img.shields.io/badge/Mistral-FA520F?style=flat-square&logo=mistralai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-1C3C3C?style=flat-square&logo=databricks&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 **Distributed & Cloud**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![EventBridge](https://img.shields.io/badge/EventBridge-FF4F8B?style=flat-square&logo=amazonwebservices&logoColor=white)
+![SQS](https://img.shields.io/badge/SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-**Data & Frontend**
+**Data & Analytics**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+**Frontend**
+
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white)
 
 ---
 
