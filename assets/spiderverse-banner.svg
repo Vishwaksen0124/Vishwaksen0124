@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" fill="none" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif">
+  <defs>
+    <!-- halftone dot pattern -->
+    <pattern id="halftone" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.4" fill="#e2231a"/>
+    </pattern>
+    <pattern id="halftone2" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.4" fill="#2b2d6e"/>
+    </pattern>
+    <radialGradient id="fade" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="cornerTL"><rect width="320" height="320" fill="url(#fade)" transform="translate(-120,-120)"/></mask>
+    <mask id="cornerBR"><rect x="680" y="120" width="440" height="320" fill="url(#fade)" transform="translate(120,120)"/></mask>
+    <linearGradient id="stripe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e2231a"/>
+      <stop offset="50%" stop-color="#8a0f3c"/>
+      <stop offset="100%" stop-color="#2b2d6e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1000" height="320" fill="#0b0b14"/>
+  <rect width="1000" height="320" fill="url(#halftone)" opacity="0.16" mask="url(#cornerTL)"/>
+  <rect width="1000" height="320" fill="url(#halftone2)" opacity="0.16" mask="url(#cornerBR)"/>
+
+  <!-- web strands in corners -->
+  <g stroke="#3a3a55" stroke-width="1.1" opacity="0.55" fill="none">
+    <path d="M0 0 L150 70 M0 0 L70 150 M0 0 L120 120"/>
+    <path d="M0 40 Q90 90 40 150 M0 90 Q60 100 90 40"/>
+    <path d="M1000 320 L850 250 M1000 320 L930 170 M1000 320 L880 200"/>
+    <path d="M1000 280 Q910 230 960 170 M1000 230 Q940 220 910 280"/>
+  </g>
+
+  <!-- spider emblem -->
+  <g transform="translate(500,72)" stroke="#e2231a" stroke-width="3" stroke-linecap="round" fill="#e2231a">
+    <ellipse cx="0" cy="0" rx="6.5" ry="11"/>
+    <circle cx="0" cy="-13" r="4.5"/>
+    <g fill="none">
+      <path d="M-4 -6 C-22 -16 -30 -10 -40 -20 M-5 0 C-26 -2 -34 4 -46 -2 M-5 6 C-24 12 -32 16 -42 14 M-3 10 C-16 22 -22 28 -30 34"/>
+      <path d="M4 -6 C22 -16 30 -10 40 -20 M5 0 C26 -2 34 4 46 -2 M5 6 C24 12 32 16 42 14 M3 10 C16 22 22 28 30 34"/>
+    </g>
+  </g>
+
+  <!-- TITLE with chromatic-aberration glitch -->
+  <g text-anchor="middle" font-weight="900" letter-spacing="2">
+    <text x="500" y="188" font-size="62" fill="#05d9e8" opacity="0.85">PUJALA VISHWAKSEN
+      <animate attributeName="x" values="500;495;503;500;500;498;500" dur="3.2s" repeatCount="indefinite"/>
+    </text>
+    <text x="500" y="188" font-size="62" fill="#e2231a" opacity="0.85">PUJALA VISHWAKSEN
+      <animate attributeName="x" values="500;505;497;500;500;502;500" dur="3.2s" repeatCount="indefinite"/>
+    </text>
+    <text x="500" y="188" font-size="62" fill="#ffffff">PUJALA VISHWAKSEN</text>
+    <!-- glitch slice bars -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0.9;0;0;0.7;0" dur="3.2s" repeatCount="indefinite"/>
+      <rect x="250" y="160" width="500" height="6" fill="#05d9e8"/>
+      <rect x="320" y="178" width="360" height="4" fill="#e2231a"/>
+    </g>
+  </g>
+
+  <!-- subtitle -->
+  <rect x="270" y="214" width="460" height="34" rx="3" fill="url(#stripe)"/>
+  <text x="500" y="237" text-anchor="middle" font-size="17" font-weight="700" letter-spacing="4" fill="#ffffff">FRIENDLY NEIGHBORHOOD SOFTWARE ENGINEER</text>
+
+  <!-- bottom stripe -->
+  <rect x="0" y="306" width="1000" height="14" fill="url(#stripe)"/>
+  <rect x="0" y="306" width="1000" height="14" fill="url(#halftone)" opacity="0.25"/>
+
+  <!-- issue tag -->
+  <text x="28" y="44" font-size="15" font-weight="800" letter-spacing="3" fill="#ffd2d2" opacity="0.8">EARTH-1610 · ISSUE #∞</text>
+</svg>

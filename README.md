@@ -1,26 +1,25 @@
-<!-- ╔═══════════════════════════════════════════════════════════════╗ -->
-<!--   Profile README for Vishwaksen0124 · ENTER THE SPIDER-VERSE     -->
-<!-- ╚═══════════════════════════════════════════════════════════════╝ -->
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!--   Vishwaksen0124  ·  PROFILE README  ·  INTO THE SPIDER-VERSE    -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
 
-<!-- ░░░ HEADER BANNER — red/blue multiverse glitch ░░░ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:e2231a,45:8a0f3c,100:2b2d6e&text=Pujala%20Vishwaksen&fontColor=ffffff&fontSize=50&fontAlignY=33&desc=Your%20Friendly%20Neighborhood%20Software%20Engineer&descSize=18&descAlignY=53&descColor=ffd2d2&animation=fadeIn&stroke=05d9e8&strokeWidth=1"/>
+<!-- ░░░ CUSTOM HERO BANNER (animated, self-hosted SVG) ░░░ -->
+<img width="100%" src="./assets/spiderverse-banner.svg" alt="Pujala Vishwaksen — Friendly Neighborhood Software Engineer"/>
 
-<!-- ░░░ TYPING — Spidey-flavored mission lines ░░░ -->
+<!-- ░░░ TYPING — mission lines ░░░ -->
 <a href="https://github.com/Vishwaksen0124">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=3000&pause=900&color=E2231A&center=true&vCenter=true&repeat=true&width=620&lines=With+great+power+comes+great+observability;Backend+%7C+FastAPI+%2B+Celery+%2B+Redis+%2B+AWS;Agentic+AI+%7C+LangGraph+%2B+LangSmith;Anyone+can+wear+the+mask.+I+ship+the+systems." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2800&pause=900&color=E2231A&center=true&vCenter=true&repeat=true&width=640&lines=With+great+power+comes+great+observability.;Backend+%C2%B7+FastAPI+%2B+Celery+%2B+Redis+%2B+AWS;Agentic+AI+%C2%B7+LangGraph+%2B+LangSmith;Anyone+can+wear+the+mask.+I+ship+the+systems." alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<!-- getting it in a glitch panel -->
-<img src="https://img.shields.io/badge/STATUS-SWINGING_THROUGH_PRODUCTION-e2231a?style=for-the-badge&labelColor=0b0b14"/>
-<img src="https://img.shields.io/badge/EARTH-1610%20%C2%B7%20Kookar%20AI-2b2d6e?style=for-the-badge&labelColor=0b0b14"/>
+<img src="https://img.shields.io/badge/STATUS-SWINGING_THROUGH_PROD-e2231a?style=for-the-badge&labelColor=0b0b14"/>
+<img src="https://img.shields.io/badge/HQ-Kookar%20AI%20%C2%B7%20Gurgaon-2b2d6e?style=for-the-badge&labelColor=0b0b14"/>
+<img src="https://img.shields.io/badge/SPIDER--SENSE-TINGLING-05d9e8?style=for-the-badge&labelColor=0b0b14"/>
 
 <br/><br/>
 
-<!-- ░░░ CONTACT / SOCIAL ░░░ -->
 <a href="https://linkedin.com/in/vishwaksenpujala"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b0b14"/></a>
 <a href="mailto:vishwaksenpujala@gmail.com"><img src="https://img.shields.io/badge/Email-E2231A?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b0b14"/></a>
 <a href="https://github.com/Vishwaksen0124"><img src="https://img.shields.io/badge/GitHub-0b0b14?style=for-the-badge&logo=github&logoColor=white&labelColor=0b0b14"/></a>
@@ -30,35 +29,47 @@
 
 </div>
 
-<!-- halftone web divider -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:e2231a,50:05d9e8,100:2b2d6e&section=header"/>
 
-## 🕸️ ORIGIN STORY
+```diff
+@@ PANEL 01 — ORIGIN STORY @@
+- not bitten by a radioactive spider
++ bitten by the production bug
+```
 
-> *"It's a leap of faith. That's all it is, Miles. A leap of faith."*
+> *"It's a leap of faith. That's all it is, Miles — a leap of faith."*
 
-Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently bitten by the production bug as an **AI Engineer Intern at Kookar AI**. I build systems that swing through real traffic — observable, retry-aware, and still standing after the city throws everything at them.
+CS graduate from **IIIT Sri City** (CGPA **8.5/10**), now an **AI Engineer Intern @ Kookar AI**. I build backend and agentic-AI systems that swing through real traffic — **observable, retry-aware, and still standing** after the city throws everything at them.
 
-- 🕷️ **Now:** Backend, distributed pipelines, and LangGraph agents @ Kookar AI
-- 🧪 **Training in the lab:** Advanced agent architectures, evaluation, system design
-- 🎯 **Answering the call:** Full-time Software Engineer / Backend / AI Engineer roles
-- 📍 Gurgaon, India — *somewhere across the Spider-Verse*
+```text
+🕷️  NOW          backend · distributed pipelines · LangGraph agents
+🧪  IN THE LAB    advanced agent architectures · evaluation · system design
+🎯  ANSWERING     full-time Software Engineer / Backend / AI Engineer roles
+📍  HOME TURF     Gurgaon, India  ·  somewhere across the Spider-Verse
+```
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:2b2d6e,50:05d9e8,100:e2231a&section=header"/>
 
-## 🕷️ WITH GREAT POWER — What I'm Building @ Kookar AI
+```diff
+@@ PANEL 02 — WITH GREAT POWER @@  (what I'm shipping at Kookar AI)
+```
 
-- **🦸 WhatsApp AI recruiting agent** — autonomously screened **500+ candidates** with 3 specialized LLM agents, human-in-the-loop approval, and a live React + Socket.IO dashboard.
-- **🌐 Order-orchestration backbone** — powers **6 partner platforms at 60+ orders/day** with retry-aware tracking, wallet debit, and refund signaling.
-- **⚡ Distributed async pipeline** — Celery + Redis + AWS EventBridge/SQS routing **thousands of events/day** across **20+ task types** with idempotency, backoff, and dead-letter queues.
-- **🧠 10+ LangGraph agents in production** — Pydantic-typed, LangSmith-traced, with evaluator configs grading live runs across OpenAI / Anthropic / Mistral.
-- **📈 Northstar BI pipeline** — daily GMV / WAU / MAU / churn metrics auto-emailed to founders + 4 Grafana dashboards.
+| 🦸 | **WhatsApp AI recruiting agent** | autonomously screened **500+ candidates** — 3 specialized LLM agents, human-in-the-loop approval, live React + Socket.IO dashboard |
+|:--:|:--|:--|
+| 🌐 | **Order-orchestration backbone** | powers **6 partner platforms @ 60+ orders/day** with retry-aware tracking, wallet debit & refund signaling |
+| ⚡ | **Distributed async pipeline** | Celery + Redis + AWS EventBridge/SQS routing **thousands of events/day** across **20+ task types** — idempotency, backoff, dead-letter queues |
+| 🧠 | **10+ LangGraph agents in prod** | Pydantic-typed, LangSmith-traced, evaluator configs grading live runs across OpenAI / Anthropic / Mistral |
+| 📈 | **Northstar BI pipeline** | daily GMV / WAU / MAU / churn auto-emailed to founders + 4 Grafana dashboards |
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:e2231a,50:8a0f3c,100:2b2d6e&section=header"/>
 
-## 🧪 GADGETS & GEAR — Tech Stack
+```diff
+@@ PANEL 03 — GADGETS & GEAR @@  (the web-shooters)
+```
 
-**Languages**
+<div align="center">
+
+**LANGUAGES**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0b0b14)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white&labelColor=0b0b14)
@@ -67,7 +78,7 @@ Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently bitten
 ![Rust](https://img.shields.io/badge/Rust-E2231A?style=flat-square&logo=rust&logoColor=white&labelColor=0b0b14)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=0b0b14)
 
-**Backend & APIs**
+**BACKEND & APIs**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=0b0b14)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0b0b14)
@@ -84,7 +95,7 @@ Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently bitten
 ![Anthropic](https://img.shields.io/badge/Anthropic-D4A27F?style=flat-square&logo=anthropic&logoColor=white&labelColor=0b0b14)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=0b0b14)
 
-**Distributed & Cloud**
+**DISTRIBUTED & CLOUD**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=0b0b14)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white&labelColor=0b0b14)
@@ -93,7 +104,7 @@ Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently bitten
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white&labelColor=0b0b14)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=0b0b14)
 
-**Data & Frontend**
+**DATA & FRONTEND**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white&labelColor=0b0b14)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white&labelColor=0b0b14)
@@ -102,9 +113,13 @@ Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently bitten
 ![React](https://img.shields.io/badge/React-0b0b14?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-0b0b14?style=flat-square&logo=nextdotjs&logoColor=white)
 
+</div>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:2b2d6e,50:e2231a,100:05d9e8&section=header"/>
 
-## 🌐 ACROSS THE SPIDER-VERSE — Featured Projects
+```diff
+@@ PANEL 04 — ACROSS THE SPIDER-VERSE @@  (featured builds)
+```
 
 <div align="center">
 
@@ -131,7 +146,9 @@ Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently bitten
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:05d9e8,50:e2231a,100:2b2d6e&section=header"/>
 
-## 📊 SPIDER-SENSE — GitHub Stats
+```diff
+@@ PANEL 05 — SPIDER-SENSE @@  (the numbers don't lie)
+```
 
 <div align="center">
 
@@ -159,9 +176,8 @@ Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently bitten
 <a href="https://linkedin.com/in/vishwaksenpujala"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b0b14"/></a>
 <a href="mailto:vishwaksenpujala@gmail.com"><img src="https://img.shields.io/badge/Email-E2231A?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b0b14"/></a>
 
-<i>Open to full-time Software Engineer, Backend, and AI Engineer roles — across every universe.</i>
+<i>Open to full-time Software Engineer, Backend & AI Engineer roles — across every universe.</i>
 
 </div>
 
-<!-- ░░░ FOOTER — venom-web wave ░░░ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2b2d6e,50:8a0f3c,100:e2231a&height=90&section=footer&text=THWIP!&fontColor=ffffff&fontSize=24&fontAlignY=72"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2b2d6e,50:8a0f3c,100:e2231a&height=90&section=footer&text=THWIP!&fontColor=ffffff&fontSize=26&fontAlignY=72"/>
