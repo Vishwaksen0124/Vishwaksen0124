@@ -1,73 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" fill="none" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" fill="none" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif">
   <defs>
-    <!-- halftone dot pattern -->
-    <pattern id="halftone" width="14" height="14" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="3" r="2.4" fill="#e2231a"/>
+    <!-- Ben-Day halftone dot fields -->
+    <pattern id="dotsRed" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.6" fill="#e2231a"/>
     </pattern>
-    <pattern id="halftone2" width="14" height="14" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="3" r="2.4" fill="#2b2d6e"/>
+    <pattern id="dotsCyan" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.6" fill="#05d9e8"/>
     </pattern>
-    <radialGradient id="fade" cx="50%" cy="50%" r="75%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <pattern id="dotsWhite" width="11" height="11" patternUnits="userSpaceOnUse">
+      <circle cx="2.5" cy="2.5" r="1.7" fill="#ffffff"/>
+    </pattern>
+
+    <!-- fade masks so dot fields bleed off into the dark -->
+    <radialGradient id="fadeTL" cx="0%" cy="0%" r="95%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
     </radialGradient>
-    <mask id="cornerTL"><rect width="320" height="320" fill="url(#fade)" transform="translate(-120,-120)"/></mask>
-    <mask id="cornerBR"><rect x="680" y="120" width="440" height="320" fill="url(#fade)" transform="translate(120,120)"/></mask>
-    <linearGradient id="stripe" x1="0" y1="0" x2="1" y2="0">
+    <radialGradient id="fadeBR" cx="100%" cy="100%" r="95%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="mTL"><rect width="1000" height="340" fill="url(#fadeTL)"/></mask>
+    <mask id="mBR"><rect width="1000" height="340" fill="url(#fadeBR)"/></mask>
+
+    <!-- centre glow + vignette -->
+    <radialGradient id="glow" cx="50%" cy="46%" r="60%">
+      <stop offset="0%" stop-color="#e2231a" stop-opacity="0.40"/>
+      <stop offset="55%" stop-color="#8a0f3c" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0b0b14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="50%" cy="50%" r="75%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#e2231a"/>
-      <stop offset="50%" stop-color="#8a0f3c"/>
+      <stop offset="100%" stop-color="#8a0f3c"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e2231a"/>
+      <stop offset="50%" stop-color="#05d9e8"/>
       <stop offset="100%" stop-color="#2b2d6e"/>
     </linearGradient>
   </defs>
 
-  <!-- backdrop -->
-  <rect width="1000" height="320" fill="#0b0b14"/>
-  <rect width="1000" height="320" fill="url(#halftone)" opacity="0.16" mask="url(#cornerTL)"/>
-  <rect width="1000" height="320" fill="url(#halftone2)" opacity="0.16" mask="url(#cornerBR)"/>
+  <!-- ░ base ░ -->
+  <rect width="1000" height="340" fill="#0b0b14"/>
 
-  <!-- web strands in corners -->
-  <g stroke="#3a3a55" stroke-width="1.1" opacity="0.55" fill="none">
-    <path d="M0 0 L150 70 M0 0 L70 150 M0 0 L120 120"/>
-    <path d="M0 40 Q90 90 40 150 M0 90 Q60 100 90 40"/>
-    <path d="M1000 320 L850 250 M1000 320 L930 170 M1000 320 L880 200"/>
-    <path d="M1000 280 Q910 230 960 170 M1000 230 Q940 220 910 280"/>
-  </g>
-
-  <!-- spider emblem -->
-  <g transform="translate(500,72)" stroke="#e2231a" stroke-width="3" stroke-linecap="round" fill="#e2231a">
-    <ellipse cx="0" cy="0" rx="6.5" ry="11"/>
-    <circle cx="0" cy="-13" r="4.5"/>
-    <g fill="none">
-      <path d="M-4 -6 C-22 -16 -30 -10 -40 -20 M-5 0 C-26 -2 -34 4 -46 -2 M-5 6 C-24 12 -32 16 -42 14 M-3 10 C-16 22 -22 28 -30 34"/>
-      <path d="M4 -6 C22 -16 30 -10 40 -20 M5 0 C26 -2 34 4 46 -2 M5 6 C24 12 32 16 42 14 M3 10 C16 22 22 28 30 34"/>
+  <!-- ░ radial speed-burst behind title ░ -->
+  <g transform="translate(500,160)" opacity="0.16">
+    <g fill="#ffffff">
+      <polygon points="0,0 1200,-30 1200,30"/>
+      <polygon points="0,0 -1200,-30 -1200,30"/>
+      <polygon points="0,0 -30,1200 30,1200"/>
+      <polygon points="0,0 -30,-1200 30,-1200"/>
+    </g>
+    <g fill="#e2231a" transform="rotate(22)">
+      <polygon points="0,0 1200,-18 1200,18"/>
+      <polygon points="0,0 -1200,-18 -1200,18"/>
+    </g>
+    <g fill="#05d9e8" transform="rotate(-22)">
+      <polygon points="0,0 1200,-14 1200,14"/>
+      <polygon points="0,0 -1200,-14 -1200,14"/>
     </g>
   </g>
 
-  <!-- TITLE with chromatic-aberration glitch -->
-  <g text-anchor="middle" font-weight="900" letter-spacing="2">
-    <text x="500" y="188" font-size="62" fill="#05d9e8" opacity="0.85">PUJALA VISHWAKSEN
-      <animate attributeName="x" values="500;495;503;500;500;498;500" dur="3.2s" repeatCount="indefinite"/>
+  <!-- ░ halftone fields ░ -->
+  <rect width="1000" height="340" fill="url(#dotsRed)" opacity="0.22" mask="url(#mTL)"/>
+  <rect width="1000" height="340" fill="url(#dotsCyan)" opacity="0.22" mask="url(#mBR)"/>
+  <rect width="1000" height="340" fill="url(#glow)"/>
+  <rect width="1000" height="340" fill="url(#vig)"/>
+
+  <!-- ░ spider web (top-right corner) ░ -->
+  <g stroke="#aeb4d6" stroke-width="1.1" fill="none" opacity="0.6" stroke-linecap="round">
+    <!-- radial anchors from corner -->
+    <path d="M1000 0 L786 28 M1000 0 L812 78 M1000 0 L860 120 M1000 0 L920 150 M1000 0 L1000 168"/>
+    <!-- concentric strands -->
+    <path d="M833 13 Q900 70 940 30 M806 56 Q872 96 955 70" opacity="0.5"/>
+    <path d="M804 40 Q866 86 905 56 M828 22 Q900 50 950 44"/>
+    <path d="M792 70 Q864 110 935 96"/>
+  </g>
+  <!-- spider -->
+  <g transform="translate(881,96) scale(0.9)" stroke="#e2231a" stroke-width="2.4" stroke-linecap="round" fill="#e2231a">
+    <ellipse cx="0" cy="0" rx="5" ry="8.5"/>
+    <circle cx="0" cy="-10" r="3.6"/>
+    <g fill="none">
+      <path d="M-3 -4 C-16 -12 -22 -8 -30 -16 M-4 1 C-19 0 -25 5 -34 1 M-4 5 C-17 11 -23 15 -31 14"/>
+      <path d="M3 -4 C16 -12 22 -8 30 -16 M4 1 C19 0 25 5 34 1 M4 5 C17 11 23 15 31 14"/>
+    </g>
+  </g>
+
+  <!-- ░ kicker ░ -->
+  <g text-anchor="middle">
+    <text x="500" y="74" font-size="15" font-weight="800" letter-spacing="7" fill="#05d9e8">— ENTER THE SPIDER-VERSE —</text>
+  </g>
+
+  <!-- ░ TITLE — comic chromatic split ░ -->
+  <g text-anchor="middle" font-weight="900" letter-spacing="1.5">
+    <text x="500" y="166" font-size="68" fill="#05d9e8" opacity="0.9" transform="translate(-4,3)">PUJALA VISHWAKSEN
+      <animate attributeName="x" values="500;496;503;500;500;498;500" dur="3.4s" repeatCount="indefinite"/>
     </text>
-    <text x="500" y="188" font-size="62" fill="#e2231a" opacity="0.85">PUJALA VISHWAKSEN
-      <animate attributeName="x" values="500;505;497;500;500;502;500" dur="3.2s" repeatCount="indefinite"/>
+    <text x="500" y="166" font-size="68" fill="#e2231a" opacity="0.9" transform="translate(4,-3)">PUJALA VISHWAKSEN
+      <animate attributeName="x" values="500;505;497;500;500;502;500" dur="3.4s" repeatCount="indefinite"/>
     </text>
-    <text x="500" y="188" font-size="62" fill="#ffffff">PUJALA VISHWAKSEN</text>
+    <text x="500" y="166" font-size="68" fill="#ffffff" stroke="#0b0b14" stroke-width="1.2" paint-order="stroke">PUJALA VISHWAKSEN</text>
     <!-- glitch slice bars -->
     <g opacity="0">
-      <animate attributeName="opacity" values="0;0;0.9;0;0;0.7;0" dur="3.2s" repeatCount="indefinite"/>
-      <rect x="250" y="160" width="500" height="6" fill="#05d9e8"/>
-      <rect x="320" y="178" width="360" height="4" fill="#e2231a"/>
+      <animate attributeName="opacity" values="0;0;0.85;0;0;0.6;0" dur="3.4s" repeatCount="indefinite"/>
+      <rect x="230" y="138" width="540" height="6" fill="#05d9e8"/>
+      <rect x="300" y="156" width="400" height="4" fill="#e2231a"/>
     </g>
   </g>
 
-  <!-- subtitle -->
-  <rect x="270" y="214" width="460" height="34" rx="3" fill="url(#stripe)"/>
-  <text x="500" y="237" text-anchor="middle" font-size="17" font-weight="700" letter-spacing="4" fill="#ffffff">FRIENDLY NEIGHBORHOOD SOFTWARE ENGINEER</text>
+  <!-- ░ subtitle ribbon (angled comic banner) ░ -->
+  <g transform="translate(500,214) rotate(-2)">
+    <polygon points="-300,0 300,0 286,40 -286,40" fill="url(#ribbon)" stroke="#ffffff" stroke-width="2"/>
+    <polygon points="-300,0 -322,20 -300,40" fill="#8a0f3c" stroke="#ffffff" stroke-width="2"/>
+    <polygon points="300,0 322,20 300,40" fill="#8a0f3c" stroke="#ffffff" stroke-width="2"/>
+    <text x="0" y="26" text-anchor="middle" font-size="15.5" font-weight="800" letter-spacing="3.2" fill="#ffffff">FRIENDLY NEIGHBORHOOD SOFTWARE ENGINEER</text>
+  </g>
 
-  <!-- bottom stripe -->
-  <rect x="0" y="306" width="1000" height="14" fill="url(#stripe)"/>
-  <rect x="0" y="306" width="1000" height="14" fill="url(#halftone)" opacity="0.25"/>
+  <!-- ░ THWIP! burst ░ -->
+  <g transform="translate(96,250)">
+    <path d="M0,-26 6,-9 24,-13 12,2 26,14 8,14 8,30 -3,14 -22,18 -11,3 -24,-10 -7,-9 Z"
+          fill="#ffd200" stroke="#0b0b14" stroke-width="2" transform="rotate(-12)"/>
+    <text x="0" y="6" text-anchor="middle" font-size="14" font-weight="900" fill="#0b0b14" transform="rotate(-12)">THWIP!</text>
+  </g>
 
-  <!-- issue tag -->
-  <text x="28" y="44" font-size="15" font-weight="800" letter-spacing="3" fill="#ffd2d2" opacity="0.8">EARTH-1610 · ISSUE #∞</text>
+  <!-- ░ issue tag ░ -->
+  <text x="970" y="318" text-anchor="end" font-size="13" font-weight="800" letter-spacing="2" fill="#ffd2d2" opacity="0.7">EARTH-1610 · ISSUE #∞</text>
+
+  <!-- ░ comic panel frame ░ -->
+  <rect x="5" y="5" width="990" height="330" rx="6" fill="none" stroke="#0b0b14" stroke-width="10"/>
+  <rect x="8" y="8" width="984" height="324" rx="5" fill="none" stroke="url(#edge)" stroke-width="3"/>
+  <rect x="0" y="330" width="1000" height="10" fill="url(#edge)"/>
+  <rect x="0" y="330" width="1000" height="10" fill="url(#dotsWhite)" opacity="0.25"/>
 </svg>
