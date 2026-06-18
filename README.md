@@ -1,3 +1,5 @@
+<img width="100%" src="./assets/banner.png" alt="Vishwaksen, a backend and AI engineer at work amid distributed pipelines and AI agents"/>
+
 # Hi, I'm Vishwaksen 👋
 
 Software engineer based in Gurgaon, India. I like building backend systems that quietly do a lot of work and don't fall over: observable, resilient, and comfortable under real traffic.
