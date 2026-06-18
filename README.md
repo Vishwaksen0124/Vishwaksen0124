@@ -13,7 +13,7 @@ Software Engineer focused on backend systems, distributed pipelines, and agentic
 - Built a WhatsApp AI recruiting agent that autonomously screened 500+ candidates using 3 specialized LLM agents with human-in-the-loop approval and a live React + Socket.IO dashboard.
 - Built the order-orchestration backbone powering 6 partner platforms at 60+ orders/day, with retry-aware tracking, wallet debit, and refund signaling.
 - Built a distributed async pipeline on Celery + Redis + AWS EventBridge/SQS routing thousands of events/day across 20+ task types, with idempotency, exponential backoff, and dead-letter queues.
-- Shipped 10+ LangGraph agents to production — Pydantic-typed and LangSmith-traced, with evaluator configs grading live runs across OpenAI, Anthropic, and Mistral.
+- Shipped 10+ LangGraph agents to production: Pydantic-typed and LangSmith-traced, with evaluator configs grading live runs across OpenAI, Anthropic, and Mistral.
 - Built the Northstar BI pipeline emitting daily GMV / WAU / MAU / churn metrics to founders, backed by 4 Grafana dashboards.
 
 ## Skills
