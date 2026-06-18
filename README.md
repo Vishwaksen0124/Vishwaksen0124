@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img width="100%" src="./assets/header.svg" alt="Pujala Vishwaksen — Software Engineer · Backend, Distributed Systems, Agentic AI"/>
+<img width="100%" src="./assets/header.svg" alt="Pujala Vishwaksen, Software Engineer · Backend, Distributed Systems, Agentic AI"/>
 
 <br/>
 
@@ -22,14 +22,14 @@
 
 Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently an **AI Engineer Intern at Kookar AI**, where I build production backend services and agentic-AI systems. I focus on software that runs in production, stays observable, and holds up under real traffic.
 
-- **Now** — Backend services, distributed pipelines, and LangGraph agents at Kookar AI
-- **Interests** — Agent architectures, evaluation, and system design
-- **Open to** — Full-time Software Engineer, Backend, and AI Engineer roles
-- **Location** — Gurgaon, India
+- **Now:** Backend services, distributed pipelines, and LangGraph agents at Kookar AI
+- **Interests:** Agent architectures, evaluation, and system design
+- **Open to:** Full-time Software Engineer, Backend, and AI Engineer roles
+- **Location:** Gurgaon, India
 
 <br/>
 
-## Selected Work — Kookar AI
+## Selected Work at Kookar AI
 
 | Project | Impact |
 |:--|:--|
@@ -104,10 +104,10 @@ Computer Science graduate from **IIIT Sri City** (CGPA 8.5/10), currently an **A
 
 </div>
 
-- **Creative Writing Studio** — multi-agent GenAI writing platform (LangChain + FAISS + Streamlit) · [Live](https://creativewritingstudio.streamlit.app)
-- **LoveStream** — real-time WebRTC video & screen-share (Next.js 16 + Supabase Realtime)
-- **Planity** — full-stack role-based task manager (React + Node + MongoDB + Redis + Docker)
-- **RDISNet** — deep-learning image stitching with dilated residual encoders + transformer fusion
+- **Creative Writing Studio:** multi-agent GenAI writing platform (LangChain + FAISS + Streamlit) · [Live](https://creativewritingstudio.streamlit.app)
+- **LoveStream:** real-time WebRTC video & screen-share (Next.js 16 + Supabase Realtime)
+- **Planity:** full-stack role-based task manager (React + Node + MongoDB + Redis + Docker)
+- **RDISNet:** deep-learning image stitching with dilated residual encoders + transformer fusion
 
 <br/>
 
