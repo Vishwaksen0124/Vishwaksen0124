@@ -6,6 +6,4 @@ Backend and AI engineer who likes building systems that quietly do a lot of work
 
 I care about clean architecture, observability, and shipping things that actually run. Most days I'm reaching for Python, FastAPI, LangGraph, Celery + Redis, AWS, and PostgreSQL.
 
-Open to full-time software engineering roles, backend or AI.
-
 📫 vishwaksenpujala@gmail.com &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/vishwaksenpujala)
