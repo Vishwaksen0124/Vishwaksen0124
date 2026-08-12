@@ -2,8 +2,8 @@
 
 # Hi, I'm Vishwaksen 👋
 
-Backend and AI engineer who likes building systems that quietly do a lot of work and stay standing under real traffic. Right now I'm at **Kookar AI**, working on distributed event pipelines and production LangGraph agents.
+Backend and AI engineer at **Kookar AI** (PPO, AI Product Analyst Intern → AI Engineer). I ship production systems across mobile apps, grocery ordering, voice editing, per-house and agent observability, and LangGraph agents.
 
-I care about clean architecture, observability, and shipping things that actually run. Most days I'm reaching for Python, FastAPI, LangGraph, Celery + Redis, AWS, and PostgreSQL.
+I care about clean architecture, observability, and shipping things that actually run. Most days I'm reaching for Python, FastAPI, LangGraph, Celery + Redis, Azure, React Native, and Grafana.
 
 📫 vishwaksenpujala@gmail.com &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/vishwaksenpujala)
